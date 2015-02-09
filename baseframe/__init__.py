@@ -11,6 +11,7 @@ from flask.ext.mustache import FlaskMustache
 from ._version import *  # NOQA
 from .assets import assets, Version
 from . import translations
+from . import signals
 
 __all__ = ['baseframe', 'baseframe_js', 'baseframe_css', 'assets', 'Version', '_', '__']
 

@@ -5,7 +5,7 @@ from urllib import quote as urlquote
 from urlparse import urljoin
 import dns.resolver
 from pyisemail import is_email
-from flask import request
+from flask import request, current_app
 import wtforms
 import requests
 from lxml import html

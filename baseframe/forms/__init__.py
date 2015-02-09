@@ -4,7 +4,7 @@
 Baseframe forms
 """
 
-from flask import render_template, request, Markup, abort, flash, redirect, escape, url_for, make_response
+from flask import render_template, request, Markup, abort, flash, redirect, escape, url_for, make_response, current_app
 import wtforms
 import wtforms.fields.html5
 from flask.ext.wtf import Form as BaseForm
