@@ -194,6 +194,8 @@ assets['moment.js'][Version('2.14.1')] = 'baseframe/js/moment.js'
 assets['bootstrap-daterangepicker.js'][Version('2.1.24')] = ('jquery.js>=1.8.3', 'bootstrap.js>=3.3.1', 'moment.js', 'baseframe/js/bootstrap-daterangepicker.js')
 assets['bootstrap-daterangepicker.css'][Version('2.1.24')] = ('bootstrap.css>=3.3.1', 'baseframe/css/bootstrap-daterangepicker.css')
 
+assets['clipboard.js'][Version('1.5.12')] = 'baseframe/js/clipboard.js'
+
 # Font Awesome
 assets['fontawesome.css'][Version('3.1.0')] = 'baseframe/css/fontawesome-3.1.css'
 assets['fontawesome.css'][Version('4.4.0')] = 'baseframe/css/fontawesome-4.4.css'
