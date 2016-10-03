@@ -1,10 +1,10 @@
 {% from "baseframe/components.html" import flash_messages, networkbar with context -%}
 {% block doctypehtml -%}
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js {%- if g.user %} userlogin {%- else %} no-userlogin {%- endif %}"> <!--<![endif]-->
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="{%- if g.user %} userlogin {%- else %} no-userlogin {%- endif %}"> <!--<![endif]-->
 {%- endblock %}
 <head>
   <meta charset="utf-8" />
@@ -46,7 +46,6 @@
     <link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}" />
   {%- endassets %}
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400italic,600italic,400,600" />
-  <script src="{{ url_for('baseframe.static', filename='js/modernizr.min.js') }}"></script>
 
   {%- block typekit %}
     {%- if config['TYPEKIT_CODE'] %}

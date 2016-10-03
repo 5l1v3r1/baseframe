@@ -71,7 +71,7 @@ footer {
 footer .footer-inner {
   margin-top: 10px;
   min-height: 57px;
-  background: whiteSmoke url('/_baseframe/img/shadow.png?1457696304') no-repeat top center;
+  background: whiteSmoke url('/_baseframe/img/shadow.png?1460092674') no-repeat top center;
 }
 
 footer .container {
@@ -89,7 +89,7 @@ footer .container p {
   overflow: hidden;
   text-align: left;
   text-transform: capitalize;
-  background-image: url('/_baseframe/img/logo.png?1457696111');
+  background-image: url('/_baseframe/img/logo.png?1460092674');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 75px;
@@ -110,7 +110,7 @@ footer .container p {
   overflow: hidden;
   text-align: left;
   text-transform: capitalize;
-  background-image: url('/_baseframe/img/hasgeek-presents.png?1457696107');
+  background-image: url('/_baseframe/img/hasgeek-presents.png?1460092674');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 100px;
@@ -639,35 +639,12 @@ ul.grid > li.header {
   font-weight: normal;
 }
 
-/* Cookies */
-.cookies-required-alert, .no-cookies .cookies-required {
-  display: none;
-}
-
-.cookies-required, .no-cookies .cookies-required-alert {
-  display: block;
-}
-
-.no-cookies .cookies-required-alert {
-  margin-top: 1em;
-}
-
 .rwd-line {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-}
-
-.js .jshidden, .js .no-js-only {
-  display: none;
-  visibility: hidden;
-}
-
-.no-js .no-jshidden, .no-js .js-only {
-  display: none;
-  visibility: hidden;
 }
 
 .userlogin .no-userlogin-only {
@@ -688,7 +665,7 @@ ul.grid > li.header {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   #logo {
-    background-image: url('/_baseframe/img/logo@2x.png?1457696127');
+    background-image: url('/_baseframe/img/logo@2x.png?1460092674');
     -webkit-background-size: auto 75px;
   }
 }
