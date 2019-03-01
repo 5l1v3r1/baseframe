@@ -19,6 +19,11 @@ ol ul {
     margin-bottom: 0;
 }
 
+li p + ul,
+li p + ol {
+    margin-bottom: 8px;
+}
+
 .mui-divider {
     width: 100%;
 }

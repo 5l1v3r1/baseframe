@@ -383,6 +383,5 @@ assets['mui.css'][Version('0.9.21')] = 'baseframe/css/mui.css'
 assets['baseframe-mui.css'][Version(__version__)] = {'requires': [
     'jquery-modal.css',
     'select2-material.css',
-    'jquery.timepicker.css',
     'mui.css'
 ]}

@@ -2846,7 +2846,7 @@ h4, h5, h6 {
 }
 
 .mui--text-light {
-  color: #8492A6;
+  color: #79818B;
 }
 
 .mui--text-light-secondary {
@@ -3585,6 +3585,11 @@ ol ul {
   margin-bottom: 0;
 }
 
+li p + ul,
+li p + ol {
+  margin-bottom: 8px;
+}
+
 .mui-divider {
   width: 100%;
 }
@@ -3714,7 +3719,7 @@ ol ul {
 }
 .mui-form .mui-form__sidetext,
 .mui-form .mui-form__helptext {
-  color: #8492A6;
+  color: #79818B;
   margin: 8px 0 0;
 }
 .mui-form .mui-textfield--addon {
@@ -3728,6 +3733,17 @@ ol ul {
   color: rgba(0, 0, 0, 0.54);
   font-size: 16px;
   line-height: 2;
+}
+.mui-form input.datetime-date {
+  display: inline;
+  width: 10em;
+}
+.mui-form input.datetime-time {
+  display: inline;
+  width: 5em;
+}
+.mui-form textarea {
+  height: 10em;
 }
 .mui-form .mui-form__label {
   position: static;
